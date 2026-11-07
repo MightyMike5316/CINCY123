@@ -243,10 +243,12 @@ p { margin: 0 0 1.1em; }
 /* ---------- Comparison table (repair vs. replacement) ---------- */
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: var(--radius); box-shadow: var(--shadow); }
 .compare { width: 100%; border-collapse: collapse; background: var(--white); font-size: 1.05rem; min-width: 640px; }
-.compare th, .compare td { padding: 1rem 1.1rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
-.compare thead th { background: var(--brand); color: #fff; font-family: var(--font-head); font-size: 1.15rem; }
+.compare th, .compare td { padding: 1.25rem 1.75rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.compare td + td, .compare th + th { border-left: 2px solid var(--line); }
+.compare thead th { background: var(--brand); color: #fff; font-family: var(--font-head); font-size: 1.15rem; border-left-color: rgba(255,255,255,0.25); }
 .compare thead th:first-child { background: var(--brand-dark); }
-.compare tbody th { background: var(--paper-deep); font-weight: 700; width: 20%; }
+.compare tbody th { background: var(--paper-deep); font-weight: 700; width: 18%; line-height: 1.35; }
+.compare tbody td { width: 41%; }
 .compare tbody td:nth-child(2) { background: #f3f8f2; }
 .compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }
 .compare sup a { text-decoration: none; font-weight: 700; }
