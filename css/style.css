@@ -150,6 +150,13 @@ p { margin: 0 0 1.1em; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin-bottom: 1.5rem; }
 .hero-art { background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1rem; }
 .hero-art img { width: 100%; }
+/* Photographs: edge-to-edge in their frame, cropped to a steady aspect ratio */
+.hero-art.photo, .service-art.photo { padding: 0; overflow: hidden; }
+.hero-art.photo img { aspect-ratio: 6 / 5; object-fit: cover; }
+.service-art.photo img { aspect-ratio: 4 / 5; object-fit: cover; max-height: 520px; }
+.photo-figure { margin: 0; }
+.photo-figure img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); aspect-ratio: 16 / 9; object-fit: cover; }
+.photo-figure figcaption { font-size: 1rem; color: var(--ink-soft); margin-top: 0.75rem; }
 .trust-row { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; color: var(--ink-soft); font-weight: 600; font-size: 1rem; }
 .trust-row span { display: inline-flex; align-items: center; gap: 0.5rem; }
 .trust-row svg { width: 20px; height: 20px; color: var(--brand); }
@@ -284,6 +291,59 @@ p { margin: 0 0 1.1em; }
 .photo-grid figure { margin: 0; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
 .photo-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .photo-grid figcaption { padding: 0.8rem 1rem; font-size: 1rem; color: var(--ink-soft); }
+
+/* ==========================================================================
+   Responsive layout
+   Phone  (≤ 600px)   : single column, sticky call bar, collapsible menu
+   Tablet (601–1024px): two-column grids, stacked hero, compact header
+   Desktop (> 1024px) : full layout
+   The phone/desktop rules live next to each component above; the tablet
+   refinements are collected here.
+   ========================================================================== */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body { font-size: 1.125rem; }
+  .container { width: min(var(--max), 100% - 3rem); }
+  .section { padding: 3.25rem 0; }
+  .hero-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .hero-art.photo { max-width: 680px; }
+  .hero .lead { font-size: 1.25rem; }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .steps { grid-template-columns: 1fr; gap: 2rem; }
+  .service-block { grid-template-columns: 1fr; gap: 1.5rem; }
+  .service-block:nth-of-type(even) .service-art { order: 0; }
+  .service-art.photo { max-width: 520px; }
+  .service-art.photo img { max-height: 440px; }
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+  .photo-grid figure:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .photo-grid figure:last-child:nth-child(odd) img { aspect-ratio: 2 / 1; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .review-card blockquote { font-size: 1.2rem; }
+}
+/* Tablet in landscape (901–1024px) still shows the full nav; keep it from crowding the call button */
+@media (min-width: 901px) and (max-width: 1100px) {
+  .nav { gap: 0.25rem 1rem; }
+  .nav a { font-size: 1rem; }
+  .brand-name { font-size: 1.1rem; }
+  .header-cta { font-size: 1rem; padding: 0.75rem 1.1rem; }
+}
+/* Phones */
+@media (max-width: 600px) {
+  .section { padding: 2.75rem 0; }
+  h1 { font-size: 2.1rem; }
+  h2 { font-size: 1.7rem; }
+  .hero { padding-top: 1.75rem; }
+  .hero .lead { font-size: 1.15rem; }
+  .hero-actions .btn-lg { width: 100%; }
+  .hero-art.photo img { aspect-ratio: 4 / 3; }
+  .service-art.photo img { aspect-ratio: 4 / 3; max-height: none; }
+  .photo-grid img { aspect-ratio: 4 / 3; }
+  .card { padding: 1.4rem; }
+  .review-card { padding: 1.5rem; }
+  .contact-big { font-size: 2rem; }
+  .hours th, .hours td { padding: 0.5rem 0.25rem; font-size: 1rem; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

@@ -6,8 +6,20 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://www.cincy123.com/images/hero-west-side-window.svg</image:loc>
-      <image:caption>Original wood double-hung window on a brick Cincinnati home</image:caption>
+      <image:loc>https://www.cincy123.com/images/hero-dining-room-double-hung-windows.jpg</image:loc>
+      <image:caption>Dining room with four restored wood double-hung windows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cincy123.com/images/photo-double-hung-lower-sash-raised.jpg</image:loc>
+      <image:caption>Double-hung window with the lower sash raised and holding</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cincy123.com/images/photo-double-hung-both-sashes-open.jpg</image:loc>
+      <image:caption>Double-hung windows with both sashes open for ventilation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cincy123.com/images/photo-brick-room-tall-double-hung-windows.jpg</image:loc>
+      <image:caption>Tall double-hung windows in an older brick building</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.cincy123.com/images/double-hung-window-anatomy.svg</image:loc>
@@ -20,8 +32,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://www.cincy123.com/images/service-sash-cord-repair.svg</image:loc>
-      <image:caption>Double-hung sash cord repair</image:caption>
+      <image:loc>https://www.cincy123.com/images/photo-double-hung-lower-sash-raised.jpg</image:loc>
+      <image:caption>Re-roped double-hung window holding its lower sash open</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://www.cincy123.com/images/service-glazing-repair.svg</image:loc>
@@ -44,6 +56,10 @@
     <image:image>
       <image:loc>https://www.cincy123.com/images/double-hung-window-anatomy.svg</image:loc>
       <image:caption>How a double-hung window works</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cincy123.com/images/photo-brick-room-tall-double-hung-windows.jpg</image:loc>
+      <image:caption>Tall original double-hung windows in an older brick building</image:caption>
     </image:image>
   </url>
   <url>

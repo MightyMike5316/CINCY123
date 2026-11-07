@@ -65,7 +65,7 @@ After adding to `reviews.json`, also paste the same review into the static revie
 > Note: the site intentionally does **not** put the Google rating into `LocalBusiness` schema markup — Google's guidelines treat self-served third-party reviews as "self-serving" and ignore (or penalise) them. The reviews are displayed as normal page content instead.
 
 ### Photos
-The artwork is original SVG. Real photos convert far better — when Mark has before/after shots:
+The site mixes real photos (`images/hero-dining-room-double-hung-windows.jpg`, `images/photo-*.jpg`) with original SVG artwork (the window cutaway diagram and the glazing/casement/storm illustrations). The current photos are web-resolution (~400–600 px wide); if higher-resolution originals are available, drop them in under the same file names and they'll look sharper on large and Retina screens. When Mark has before/after shots of his own work:
 
 1. Export as JPG, ~1600 px on the long side, under 300 KB each.
 2. Save to `images/` with descriptive file names (`re-roped-sash-westwood.jpg`, not `IMG_4021.jpg`).
