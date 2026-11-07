@@ -63,6 +63,16 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.cincy123.com/repair-vs-replacement</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.cincy123.com/images/photo-double-hung-both-sashes-open.jpg</image:loc>
+      <image:caption>Original double-hung windows with both sashes open</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.cincy123.com/contact</loc>
     <lastmod>2026-11-07</lastmod>
     <changefreq>monthly</changefreq>

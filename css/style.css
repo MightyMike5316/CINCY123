@@ -240,6 +240,20 @@ p { margin: 0 0 1.1em; }
 .area-list li { break-inside: avoid; margin-bottom: 0.3rem; }
 @media (max-width: 520px) { .area-list { columns: 1; } }
 
+/* ---------- Comparison table (repair vs. replacement) ---------- */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: var(--radius); box-shadow: var(--shadow); }
+.compare { width: 100%; border-collapse: collapse; background: var(--white); font-size: 1.05rem; min-width: 640px; }
+.compare th, .compare td { padding: 1rem 1.1rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.compare thead th { background: var(--brand); color: #fff; font-family: var(--font-head); font-size: 1.15rem; }
+.compare thead th:first-child { background: var(--brand-dark); }
+.compare tbody th { background: var(--paper-deep); font-weight: 700; width: 20%; }
+.compare tbody td:nth-child(2) { background: #f3f8f2; }
+.compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }
+.compare sup a { text-decoration: none; font-weight: 700; }
+.sources { padding-left: 1.3rem; font-size: 1.05rem; }
+.sources li { margin-bottom: 0.6rem; }
+.sources a { word-break: break-word; }
+
 /* ---------- FAQ ---------- */
 .faq details { background: var(--white); border: 1px solid var(--line); border-radius: 12px; padding: 0 1.25rem; margin-bottom: 0.9rem; }
 .faq summary { cursor: pointer; font-weight: 700; font-size: 1.15rem; padding: 1.1rem 0; list-style: none; display: flex; justify-content: space-between; gap: 1rem; align-items: center; }
@@ -343,6 +357,17 @@ p { margin: 0 0 1.1em; }
   .review-card { padding: 1.5rem; }
   .contact-big { font-size: 2rem; }
   .hours th, .hours td { padding: 0.5rem 0.25rem; font-size: 1rem; }
+  /* Comparison table stacks into labeled blocks instead of scrolling sideways */
+  .table-wrap { overflow: visible; box-shadow: none; }
+  .compare { min-width: 0; background: transparent; }
+  .compare thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .compare tbody tr { display: block; background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 1rem; overflow: hidden; }
+  .compare tbody th, .compare tbody td { display: block; width: auto; border-bottom: 0; }
+  .compare tbody th { background: var(--brand); color: #fff; font-family: var(--font-head); font-size: 1.1rem; padding: 0.75rem 1rem; }
+  .compare tbody td { padding: 0.6rem 1rem 0.9rem; }
+  .compare tbody td::before { content: attr(data-label); display: block; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.2rem; }
+  .compare tbody td:nth-child(2) { background: #f3f8f2; }
+  .compare tbody td:nth-child(3) { background: var(--white); }
 }
 
 @media (prefers-reduced-motion: reduce) {

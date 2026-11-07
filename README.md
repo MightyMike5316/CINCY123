@@ -1,6 +1,6 @@
 # Westside-Old Window Repair — www.cincy123.com
 
-Static, 4-page marketing site for **Westside - Old Window Repair** (Mark Gay, Cincinnati's West Side).
+Static, 5-page marketing site for **Westside - Old Window Repair** (Mark Gay, Cincinnati's West Side).
 No build step, no framework — plain HTML, CSS and a little JavaScript, ready for **Cloudflare Pages**.
 
 | Page | File | URL |
@@ -8,6 +8,7 @@ No build step, no framework — plain HTML, CSS and a little JavaScript, ready f
 | Home | `index.html` | `/` |
 | Services (+ FAQ) | `services.html` | `/services` |
 | About Mark | `about.html` | `/about` |
+| Repair vs. Replacement (article) | `repair-vs-replacement.html` | `/repair-vs-replacement` |
 | Contact, Hours & Reviews | `contact.html` | `/contact` |
 
 Cloudflare Pages serves `services.html` at `/services` automatically (clean URLs), and all internal links, canonical tags and the sitemap already use the clean form.

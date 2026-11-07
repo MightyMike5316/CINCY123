@@ -31,7 +31,8 @@ Local volumes for a West-Side-only service are tiny by nature; the national term
 | window painted shut | 40 | 10 | home "Signs" H2, FAQ |
 | historic / vintage / antique window repair | 90 / 50 / 50 | 14–15 | about copy, home eyebrow |
 | repair old windows / fix old windows | 90 / 50 | 16 / 21 | home "why repair" section |
-| window repair vs replacement | 70 | — | FAQ (cost question) |
+| window repair vs replacement | 70 | — | dedicated page /repair-vs-replacement (Article + FAQ schema), linked from home, services FAQ, nav and footer |
+| replacement window cost / window repair cost | — | — | /repair-vs-replacement comparison table with sourced 2026 figures |
 | how do double hung windows work | 110 | 3 | about anatomy H2, FAQ |
 | what is a window sash | 3,600 | 16 | about anatomy H2, FAQ (informational — brings readers, not calls, but builds topical authority) |
 | window handyman near me | 70 | 15 | Business Profile category is "Handyman"; no on-site change |
