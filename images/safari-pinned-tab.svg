@@ -1,15 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="Westside-Old Window Repair window mark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127 127" width="127" height="127" role="img" aria-label="Westside-Old Window Repair window mark">
   <style></style>
   
-  <g fill="#000" transform="translate(14.0 0.0)">
-    <path fill-rule="evenodd" d="M8 0h56a8 8 0 0 1 8 8v84a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8V8a8 8 0 0 1 8-8z
-      M7 7v86h58V7z"/>
-    <rect x="33.0" y="7" width="6" height="86"/>
-    <rect x="7" y="31.0" width="58" height="6"/>
-    <rect x="7" y="63.0" width="58" height="6"/>
-    <path fill-rule="evenodd" d="M36.0 34.0a16 16 0 1 1 0 32a16 16 0 1 1 0-32z
-      M36.0 40.0a10 10 0 1 0 0 20a10 10 0 1 0 0-20z"/>
-    <circle cx="36.0" cy="50.0" r="5"/>
-    <rect x="20.0" y="48.0" width="32" height="4"/>
+  <g fill="#000" transform="translate(17.0 0.0)">
+    <defs>
+      <mask id="ms" maskUnits="userSpaceOnUse" x="0" y="0" width="93" height="127">
+        <rect width="93" height="127" fill="#fff"/>
+        <circle cx="46.5" cy="63.5" r="18" fill="#000"/>
+      </mask>
+    </defs>
+    <!-- thin outer edge -->
+    <path fill-rule="evenodd" d="M0 0h93v127H0z M1.5 1.5v124h90V1.5z"/>
+    <!-- main frame band (between outer white band and inner white line) -->
+    <path fill-rule="evenodd" d="M8 8h77v111H8z M14 14v99h65V14z"/>
+    <!-- four glass panes, with the ring cut out of their inner corners -->
+    <g mask="url(#ms)">
+      <rect x="21" y="21" width="22.5" height="39.5"/>
+      <rect x="49.5" y="21" width="22.5" height="39.5"/>
+      <rect x="21" y="66.5" width="22.5" height="39.5"/>
+      <rect x="49.5" y="66.5" width="22.5" height="39.5"/>
+    </g>
+    <!-- solid hub inside the ring -->
+    <circle cx="46.5" cy="63.5" r="12"/>
   </g>
 </svg>
