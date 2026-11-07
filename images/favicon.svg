@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127 127" width="127" height="127" role="img" aria-label="Westside-Old Window Repair window mark">
-  <style>:root{--c:#17468F} @media (prefers-color-scheme: dark){:root{--c:#FFFFFF}}</style>
+  <style>.c{fill:#17468F} @media (prefers-color-scheme: dark){.c{fill:#FFFFFF}}</style>
   
-  <g fill="var(--c)" transform="translate(17.0 0.0)">
+  <g class="c" fill="#17468F" transform="translate(17.0 0.0)">
     <defs>
       <mask id="mf" maskUnits="userSpaceOnUse" x="0" y="0" width="93" height="127">
         <rect width="93" height="127" fill="#fff"/>
