@@ -105,3 +105,10 @@ npx wrangler pages dev .      # emulates Cloudflare Pages (clean URLs, _headers,
 # or, without clean URLs:
 python3 -m http.server 8080
 ```
+
+## Vercel (preview / alternate host)
+
+The repo also works on Vercel with zero configuration beyond the included `vercel.json`
+(clean URLs, cache/security headers and the same redirects as Cloudflare).
+Import at <https://vercel.com/new> → pick `CINCY123` → Framework preset **Other** → Deploy.
+Pushes to `main` redeploy automatically; every pull request gets its own preview URL.
