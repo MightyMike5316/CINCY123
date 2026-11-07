@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Casement window crank icon">
+  <circle cx="36" cy="36" r="34" fill="#f1ebdf"/>
+  <rect x="14" y="14" width="44" height="36" fill="#cfe2ee" stroke="#8b7357" stroke-width="4"/>
+  <path d="M14 14 L34 22 L34 46 L14 50 Z" fill="#b7d0df" stroke="#8b7357" stroke-width="3"/>
+  <path d="M46 56 h-6 a5 5 0 0 1 0 -10 h6" fill="none" stroke="#b5542a" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="48" cy="51" r="4" fill="#b5542a"/>
+</svg>

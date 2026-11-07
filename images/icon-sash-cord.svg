@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Sash cord and pulley icon">
+  <circle cx="36" cy="36" r="34" fill="#f1ebdf"/>
+  <circle cx="24" cy="22" r="9" fill="none" stroke="#1f4d6b" stroke-width="4"/>
+  <circle cx="24" cy="22" r="2.5" fill="#1f4d6b"/>
+  <path d="M33 22 L33 44" stroke="#b5542a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M15 22 L15 36" stroke="#b5542a" stroke-width="4" stroke-linecap="round"/>
+  <rect x="11" y="36" width="8" height="20" rx="2" fill="#1f2a33"/>
+  <rect x="40" y="26" width="20" height="32" rx="2" fill="#cfe2ee" stroke="#8b7357" stroke-width="3"/>
+  <line x1="40" y1="42" x2="60" y2="42" stroke="#8b7357" stroke-width="3"/>
+</svg>

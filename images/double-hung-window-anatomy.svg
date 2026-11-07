@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="t d">
+  <title id="t">Cutaway diagram of a vintage double-hung window</title>
+  <desc id="d">A wood double-hung window with the upper and lower sashes, meeting rail, sash cord running over a pulley to a cast-iron counterweight hidden in the weight pocket, and glazing putty around each pane.</desc>
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcecf5"/><stop offset="1" stop-color="#b9d4e4"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6efe2"/><stop offset="1" stop-color="#e8dcc6"/>
+    </linearGradient>
+  </defs>
+  <!-- wall -->
+  <rect x="0" y="0" width="800" height="560" fill="#f7f3ea"/>
+  <g transform="translate(80,0)">
+  <!-- cutaway weight pocket (left jamb) -->
+  <rect x="70" y="40" width="70" height="470" fill="#5b4636"/>
+  <rect x="80" y="50" width="50" height="450" fill="#3f2f24"/>
+  <!-- pulley -->
+  <circle cx="105" cy="72" r="14" fill="#8a8f94" stroke="#55595d" stroke-width="3"/>
+  <circle cx="105" cy="72" r="4" fill="#3b3f43"/>
+  <!-- cord -->
+  <path d="M105 58 Q118 58 119 75 L119 300" fill="none" stroke="#c9a46c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M91 72 L91 230" fill="none" stroke="#c9a46c" stroke-width="4" stroke-linecap="round"/>
+  <!-- weight -->
+  <rect x="83" y="230" width="16" height="110" rx="4" fill="#2b2f33"/>
+  <rect x="86" y="236" width="10" height="6" fill="#55595d"/>
+  <!-- frame -->
+  <rect x="140" y="40" width="420" height="470" fill="url(#wood)" stroke="#8b7357" stroke-width="4"/>
+  <!-- upper sash -->
+  <rect x="165" y="62" width="370" height="206" fill="url(#glass)" stroke="#8b7357" stroke-width="10"/>
+  <line x1="350" y1="62" x2="350" y2="268" stroke="#8b7357" stroke-width="10"/>
+  <line x1="165" y1="165" x2="535" y2="165" stroke="#8b7357" stroke-width="10"/>
+  <!-- lower sash (offset slightly forward) -->
+  <rect x="158" y="268" width="384" height="218" fill="url(#glass)" stroke="#9a8060" stroke-width="12"/>
+  <line x1="350" y1="268" x2="350" y2="486" stroke="#9a8060" stroke-width="12"/>
+  <line x1="158" y1="377" x2="542" y2="377" stroke="#9a8060" stroke-width="12"/>
+  <!-- glazing putty bevel hint -->
+  <rect x="176" y="73" width="164" height="82" fill="none" stroke="#d9c9a8" stroke-width="3"/>
+  <rect x="360" y="73" width="164" height="82" fill="none" stroke="#d9c9a8" stroke-width="3"/>
+  <!-- sash lock -->
+  <rect x="330" y="258" width="40" height="18" rx="4" fill="#8a6f3b"/>
+  <circle cx="350" cy="267" r="5" fill="#f1dca0"/>
+  <!-- sill -->
+  <rect x="120" y="486" width="460" height="28" fill="#cbb48f" stroke="#8b7357" stroke-width="4"/>
+  <!-- glass glints -->
+  <line x1="200" y1="90" x2="300" y2="150" stroke="#fff" stroke-opacity="0.6" stroke-width="6" stroke-linecap="round"/>
+  <line x1="400" y1="300" x2="500" y2="360" stroke="#fff" stroke-opacity="0.5" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- labels -->
+  <g font-family="Georgia, serif" font-size="17" fill="#1f2a33">
+    <g stroke="#1f4d6b" stroke-width="2" fill="none">
+      <line x1="185" y1="88" x2="100" y2="130"/>
+      <line x1="171" y1="285" x2="110" y2="320"/>
+      <line x1="199" y1="180" x2="100" y2="215"/>
+      <line x1="430" y1="267" x2="680" y2="230"/>
+      <line x1="510" y1="420" x2="680" y2="440"/>
+      <line x1="530" y1="80" x2="680" y2="30"/>
+    </g>
+    <text x="4" y="150">Pulley</text>
+    <text x="4" y="235">Sash cord</text>
+    <text x="4" y="340">Iron weight</text>
+    <text x="684" y="224" font-size="16">&amp; sash lock</text>
+    <text x="684" y="208" font-size="16">Meeting rail</text>
+    <text x="684" y="445" font-size="16">Lower sash</text>
+    <text x="684" y="26" font-size="16">Glazing putty</text>
+  </g>
+</svg>

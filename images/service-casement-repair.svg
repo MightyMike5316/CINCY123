@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="t3">
+  <title id="t3">Casement window swinging open on repaired hinges with a working crank operator</title>
+  <rect width="560" height="400" fill="#f7f3ea"/>
+  <rect x="80" y="30" width="400" height="320" fill="#e8dcc6" stroke="#8b7357" stroke-width="4"/>
+  <rect x="100" y="50" width="360" height="280" fill="#cfe2ee" stroke="#8b7357" stroke-width="8"/>
+  <path d="M100 50 L300 90 L300 290 L100 330 Z" fill="#b7d0df" stroke="#8b7357" stroke-width="8" stroke-linejoin="round"/>
+  <line x1="200" y1="70" x2="200" y2="310" stroke="#8b7357" stroke-width="6"/>
+  <circle cx="104" cy="90" r="6" fill="#8a6f3b"/>
+  <circle cx="104" cy="290" r="6" fill="#8a6f3b"/>
+  <!-- crank -->
+  <rect x="330" y="334" width="80" height="18" rx="6" fill="#8a6f3b"/>
+  <path d="M400 343 h20 a14 14 0 0 1 0 28 h-10" fill="none" stroke="#b5542a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="410" cy="371" r="6" fill="#b5542a"/>
+  <text x="280" y="388" font-family="Georgia, serif" font-size="18" fill="#1f2a33" text-anchor="middle">Hinges, operators and seals adjusted so it closes tight</text>
+</svg>

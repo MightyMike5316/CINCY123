@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Glazing putty knife icon">
+  <circle cx="36" cy="36" r="34" fill="#f1ebdf"/>
+  <rect x="14" y="14" width="30" height="30" fill="#cfe2ee" stroke="#8b7357" stroke-width="4"/>
+  <path d="M14 44 L44 44 L44 14" fill="none" stroke="#b5542a" stroke-width="5"/>
+  <path d="M38 58 L58 38 L62 42 L46 60 Z" fill="#9aa3aa" stroke="#1f2a33" stroke-width="2"/>
+  <rect x="26" y="54" width="14" height="8" rx="2" transform="rotate(-45 33 58)" fill="#8b7357"/>
+</svg>

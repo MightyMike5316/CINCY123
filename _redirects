@@ -1,0 +1,8 @@
+# Send the bare domain to www (both domains must be attached to the Pages project)
+https://cincy123.com/* https://www.cincy123.com/:splat 301
+http://cincy123.com/* https://www.cincy123.com/:splat 301
+
+# Friendly aliases
+/home / 301
+/reviews /contact#reviews 301
+/mark /about 301

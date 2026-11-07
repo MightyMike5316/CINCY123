@@ -1,0 +1,14 @@
+{
+  "source": "Google Business Profile",
+  "profile_url": "https://www.google.com/maps?cid=5809751457807609231",
+  "review_link": "https://www.google.com/maps?cid=5809751457807609231",
+  "reviews": [
+    {
+      "author": "Young Scholars Drayer",
+      "rating": 5,
+      "date": "2026-11-06",
+      "text": "Fast and efficient, punctual, explained everything and cost effective",
+      "source": "Google"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" role="img" aria-labelledby="t4">
+  <title id="t4">Storm panel fitted over a primary window, blocking wind and rain</title>
+  <rect width="560" height="400" fill="#f7f3ea"/>
+  <!-- primary window behind -->
+  <rect x="170" y="50" width="260" height="300" fill="#e8dcc6" stroke="#8b7357" stroke-width="4"/>
+  <rect x="190" y="70" width="220" height="260" fill="#cfe2ee" stroke="#8b7357" stroke-width="8"/>
+  <line x1="190" y1="200" x2="410" y2="200" stroke="#8b7357" stroke-width="8"/>
+  <!-- storm panel in front, offset -->
+  <rect x="140" y="30" width="260" height="300" fill="#dfeaf1" fill-opacity="0.85" stroke="#7d8790" stroke-width="6"/>
+  <line x1="140" y1="180" x2="400" y2="180" stroke="#7d8790" stroke-width="6"/>
+  <!-- wind -->
+  <g stroke="#1f4d6b" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.75">
+    <path d="M20 110 q20 -10 40 0 q20 10 40 0"/>
+    <path d="M30 190 q20 -10 40 0 q20 10 40 0"/>
+    <path d="M20 270 q20 -10 40 0 q20 10 40 0"/>
+  </g>
+  <g fill="#1f4d6b" opacity="0.6"><circle cx="60" cy="150" r="3"/><circle cx="90" cy="235" r="3"/><circle cx="50" cy="310" r="3"/></g>
+  <text x="280" y="378" font-family="Georgia, serif" font-size="18" fill="#1f2a33" text-anchor="middle">Frames, glass and fit restored so storms do their job</text>
+</svg>
